@@ -15,11 +15,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 To generate module :- `ng g module accordion` 
 
 To generate components :-
-`ng g c accordion --module=accordion --export=true --skipTests=true --inlineTemplate=true`
+*`ng g c accordion --module=accordion --export=true --skipTests=true --inlineTemplate=true`
 
-`ng g c accordion/accordion-item --flat=true --module=accordion --export=true --skipTests=true`
+*`ng g c accordion/accordion-item --flat=true --module=accordion --export=true --skipTests=true`
 
-commands explanation:
+**commands explanation**:
 `--module=accordion` will add components to accordion module.
 `--export=true` will add components to export array in module.
 `--skipTests=true` will skipp `spec.ts` file creation.
