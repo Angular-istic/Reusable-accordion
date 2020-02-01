@@ -15,9 +15,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 To generate module :- `ng g module accordion` 
 
 To generate components :-
-*`ng g c accordion --module=accordion --export=true --skipTests=true --inlineTemplate=true`
+**1)** `ng g c accordion --module=accordion --export=true --skipTests=true --inlineTemplate=true`
 
-*`ng g c accordion/accordion-item --flat=true --module=accordion --export=true --skipTests=true`
+**2)** `ng g c accordion/accordion-item --flat=true --module=accordion --export=true --skipTests=true`
 
 **commands explanation**:
 `--module=accordion` will add components to accordion module.
