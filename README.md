@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting started
 
-Clone or download the application. Rum `npm install`.
+Clone or download the application. Run `npm install`.
 
 ## Development server
 
