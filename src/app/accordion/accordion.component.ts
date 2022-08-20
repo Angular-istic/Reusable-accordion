@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-accordion',
@@ -7,11 +7,8 @@ import { Component, OnInit } from '@angular/core';
   `,
   styleUrls: ['./accordion.component.css']
 })
-export class AccordionComponent implements OnInit {
+export class AccordionComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

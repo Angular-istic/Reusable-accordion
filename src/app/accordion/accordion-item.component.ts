@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
@@ -25,18 +25,14 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
     ])
   ]
 })
-export class AccordionItemComponent implements OnInit {
+export class AccordionItemComponent {
 
-  @Input() title: string;
+  @Input() title: string = '';
   showBody = false;
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
   toggle() {
     this.showBody = !this.showBody;
   }
-
 }
